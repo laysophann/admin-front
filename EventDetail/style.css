@@ -1,0 +1,184 @@
+/* style.css */
+body {
+    margin: 10rem 10rem;
+}
+
+.whole {
+    width: 1151px;
+    height: 683px;
+    /* background-color: rgb(225, 228, 231); */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 5rem;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.progress-bar .button-btn {
+    border-radius: 100%;
+    padding: 1rem;
+    border: none;
+}
+
+.progress-bar p {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.delete-edit {
+    display: flex;
+    align-items: center;
+}
+
+.delete-edit img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.delete-edit p {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.line {
+    height: 2px;
+    background-color: #ccc;
+    width: 1014px;
+    margin: 1rem 5rem;
+}
+
+.text-input {
+    display: flex;
+    /* margin: 0 7rem; */
+    /* gap:1rem; */
+    margin: 1rem 3.5rem;
+}
+
+.text-input p {
+    font-size: 16px;
+    color: #575959;
+    /* background-color: #d82c0d; */
+    font-weight: 700;
+}
+
+.text-input input[type="text"] {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    opacity: 0.6;
+    color: #edeeef;
+    width: 842px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #babfc3;
+    /* background-color: blue; */
+    margin-left: 5.8rem;
+}
+
+.addFile {
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 788px;
+    height: 167px;
+    margin: 1rem 14.3rem;
+    border-color: #6b7177;
+    opacity: 0.6;
+    gap: 0.5rem;
+}
+
+.addFile button {
+    background-color: #ffffff;
+    color: #42474c;
+    border-color: #858383;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #858383;
+    padding: 12px 21px;
+}
+
+.addFile p {
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6b7177;
+}
+
+.text-box {
+    display: flex;
+    margin: 1rem 3.5rem;
+}
+
+.text-box p {
+    font-size: 16px;
+    color: #575959;
+    font-weight: 700;
+    margin-right: 2rem;
+}
+
+.text-box input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    opacity: 0.6;
+    color: #edeeef;
+    width: 842px;
+    height: 156px;
+    border: 1px solid #babfc3;
+}
+
+.text-box ::placeholder {
+    transform: translateY(-55px);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.btn .btn-1 {
+    width: 296px;
+    height: 36px;
+    padding: 8px 16px;
+    background-color: #d82c0d;
+    border: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn .btn-2 {
+    width: 296px;
+    height: 36px;
+    padding: 8px 16px;
+    background-color: #cccccc;
+    border: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+}
